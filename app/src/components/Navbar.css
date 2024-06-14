@@ -1,0 +1,172 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F2F2F2;
+    color: #24272C;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ffffff; /* Ensure navbar stands out */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow to separate from background */
+  }
+  
+  .navbar {
+    background-color: #ffffff;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-brand img {
+    margin-right: 10px;
+  }
+  
+  .nav-link {
+    color: #3DB166; /* Primary color for links */
+  }
+  
+  .nav-link:hover {
+    color: #192F59; /* Secondary color on hover */
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .btn-primary {
+    background-color: #3DB166; /* Primary color for button */
+    color: white;
+    border: 1px solid #3DB166;
+    border-radius: 6px; /* Border radius for button */
+    padding: 10px 20px; /* Padding for button */
+  }
+  
+  .btn-primary:hover {
+    background-color: #192F59; /* Secondary color on hover */
+    color: #3DB166; /* Primary color for text on hover */
+  }
+  
+  /* Dropdown Styles */
+  .dropdown-menu {
+    background-color: #ffffff; /* Background color for dropdown */
+    border: 1px solid #e0e0e0; /* Border color for dropdown */
+    border-radius: 6px; /* Border radius for dropdown */
+  }
+  
+  .dropdown-item {
+    color: #3DB166; /* Primary color for dropdown items */
+    padding: 10px 20px; /* Padding for dropdown items */
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f2f2f2; /* Background color on hover */
+    color: #192F59; /* Text color on hover */
+  }
+  
+  
+  .dropdown-divider {
+    border-top: 1px solid #060606; /* Divider color */
+    width: 100%; /* Full width */
+    margin: 0; /* Remove default margin */
+  }
+  
+  
+  /* Headings */
+  h1 {
+    font-size: 32px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  h3 {
+    font-size: 20px;
+  }
+  
+  h4 {
+    font-size: 18px;
+  }
+  
+  h5 {
+    font-size: 16px;
+  }
+  
+  h6 {
+    font-size: 14px;
+  }
+  
+  body {
+    font-size: 16px; /* Body text size */
+    line-height: 1.6; /* Line height */
+  }
+  
+  /* Icons Colors */
+  /* Use primary for icon color */
+  /* Use primary as bg for filled color. */
+  /* Icon size depends on section */
+  /* Use mono or mixed color icons */
+  /* Reference - flaticon, uxwing, icons8 (make sure use one flow of icons) */
+  
+  /* Layouts */
+  /* Page */
+  .container {
+    width: 80%; /* Layout - 80% (Container) */
+    margin: 0 auto;
+  }
+  
+  /* Breadcrumbs */
+  .breadcrumb {
+    width: 250px; /* Breadcrumbs - 250px */
+  }
+  
+  /* Hero or major sections */
+  .hero-section {
+    height: 800px; /* Hero or major sections - 800px */
+  }
+  
+  /* Section height */
+  .section {
+    height: 500px; /* Section height - 500px basic */
+  }
+  
+  /* Section padding */
+  .section-padding {
+    padding-top: 5%; /* Section padding - Top (5%) */
+    padding-bottom: 5%; /* Section padding - Bottom (5%) */
+  }
+  
+  /* Use alternative colors in bg at required to look good */
+  
+  /* Buttons */
+  .button {
+    color: #ffffff; /* Color - Primary color with white text */
+    background-color: #3DB166; /* Primary color */
+    border: 1px solid #3DB166; /* Border color */
+    border-radius: 6px; /* Border radius */
+    padding: 10px 20px; /* Button padding */
+  }
+  
+  .button:hover {
+    background-color: #192F59; /* Secondary color on hover */
+    color: #3DB166; /* Primary color text on hover */
+  }
+  
+  /* Box (icon or image with text) */
+  .box {
+    padding: 10px; /* Padding */
+  }
+
+  .social-icon {
+    font-size: 24px; /* Adjust size as needed */
+    margin-left: 10px; /* Spacing between icons */
+    color: #3DB166; /* Primary color for icons */
+  }
+  
+  .social-icon:hover {
+    color: #192F59; /* Secondary color on hover */
+  }
+  
+  
