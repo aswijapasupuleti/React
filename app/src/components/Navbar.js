@@ -1,11 +1,20 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebookF, faTwitter, faInstagram, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import "./Navbar.css"; // Import the CSS file
 
 function Navbar() {
   return (
     <div className="navbar-container">
+      <div className="top-bar">
+        <div className="container-fluid d-flex justify-content-between">
+          <span>Mon-Fri: 8:00 AM - 6:30 PM</span>
+          <div>
+            <a href="/services" className="top-link">All Services</a>
+            <a href="/careers" className="top-link">Careers</a>
+            <a href="/news" className="top-link">News</a>
+            <a href="mailto:media@tronix.com" className="top-link">media@tronix.com</a>
+          </div>
+        </div>
+      </div>
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
@@ -16,7 +25,7 @@ function Navbar() {
               height="100"
               className="navbar-logo"
             />
-            Lorem ipsum
+            SDG Solutions
           </a>
           <button
             className="navbar-toggler"
@@ -96,29 +105,19 @@ function Navbar() {
               </li>
               {/* End of Pages Dropdown */}
             </ul>
-            {/* Social Media Icons */}
-            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <a className="nav-link" href="/">
-                  <FontAwesomeIcon icon={faFacebookF} className="social-icon" />
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/">
-                  <FontAwesomeIcon icon={faTwitter} className="social-icon" />
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/">
-                  <FontAwesomeIcon icon={faInstagram} className="social-icon" />
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/">
-                  <FontAwesomeIcon icon={faLinkedinIn} className="social-icon" />
-                </a>
-              </li>
-            </ul>
+            {/* Quick Call and Get Started Buttons */}
+            <div className="d-flex align-items-center">
+              <div className="quick-call">
+                <span className="call-icon">&#128222;</span> {/* Use an appropriate call icon */}
+                <div className="call-details">
+                  <span>Quick Call</span>
+                  <span>(904) 12-366-25</span>
+                </div>
+              </div>
+              <a href="/get-started" className="btn btn-get-started">
+                Get Started
+              </a>
+            </div>
           </div>
         </div>
       </nav>
