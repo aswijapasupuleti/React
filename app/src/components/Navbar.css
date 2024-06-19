@@ -1,3 +1,4 @@
+/* General Styles */
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #F2F2F2;
@@ -6,15 +7,20 @@ body {
   padding: 0;
 }
 
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .navbar-container {
   width: 100%;
   margin: 0 auto;
-  background-color: #ffffff; /* Ensure navbar stands out */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow to separate from background */
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .top-bar {
-  background-color: #e9ecef; /* Light background color for the top bar */
+  background-color: #e9ecef;
   padding: 5px 0;
 }
 
@@ -25,7 +31,7 @@ body {
 }
 
 .top-link {
-  color: #000000; /* Adjust the link color if needed */
+  color: #000000;
   margin-left: 15px;
   text-decoration: none;
 }
@@ -48,48 +54,48 @@ body {
 }
 
 .nav-link {
-  color: #3DB166; /* Primary color for links */
+  color: #3DB166;
 }
 
 .nav-link:hover {
-  color: #192F59; /* Secondary color on hover */
-  text-decoration: underline; /* Underline on hover */
+  color: #192F59;
+  text-decoration: underline;
 }
 
 .btn-primary {
-  background-color: #3DB166; /* Primary color for button */
+  background-color: #3DB166;
   color: white;
   border: 1px solid #3DB166;
-  border-radius: 6px; /* Border radius for button */
-  padding: 10px 20px; /* Padding for button */
+  border-radius: 6px;
+  padding: 10px 20px;
 }
 
 .btn-primary:hover {
-  background-color: #192F59; /* Secondary color on hover */
-  color: #3DB166; /* Primary color for text on hover */
+  background-color: #192F59;
+  color: #3DB166;
 }
 
 /* Dropdown Styles */
 .dropdown-menu {
-  background-color: #ffffff; /* Background color for dropdown */
-  border: 1px solid #e0e0e0; /* Border color for dropdown */
-  border-radius: 6px; /* Border radius for dropdown */
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
 }
 
 .dropdown-item {
-  color: #3DB166; /* Primary color for dropdown items */
-  padding: 10px 20px; /* Padding for dropdown items */
+  color: #3DB166;
+  padding: 10px 20px;
 }
 
 .dropdown-item:hover {
-  background-color: #f2f2f2; /* Background color on hover */
-  color: #192F59; /* Text color on hover */
+  background-color: #f2f2f2;
+  color: #192F59;
 }
 
 .dropdown-divider {
-  border-top: 1px solid #060606; /* Divider color */
-  width: 100%; /* Full width */
-  margin: 0; /* Remove default margin */
+  border-top: 1px solid #060606;
+  width: 100%;
+  margin: 0;
 }
 
 /* Headings */
@@ -118,74 +124,19 @@ h6 {
 }
 
 body {
-  font-size: 16px; /* Body text size */
-  line-height: 1.6; /* Line height */
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 /* Icons Colors */
-/* Use primary for icon color */
-/* Use primary as bg for filled color. */
-/* Icon size depends on section */
-/* Use mono or mixed color icons */
-/* Reference - flaticon, uxwing, icons8 (make sure use one flow of icons) */
-
-/* Layouts */
-/* Page */
-.container {
-  width: 80%; /* Layout - 80% (Container) */
-  margin: 0 auto;
-}
-
-/* Breadcrumbs */
-.breadcrumb {
-  width: 250px; /* Breadcrumbs - 250px */
-}
-
-/* Hero or major sections */
-.hero-section {
-  height: 800px; /* Hero or major sections - 800px */
-}
-
-/* Section height */
-.section {
-  height: 500px; /* Section height - 500px basic */
-}
-
-/* Section padding */
-.section-padding {
-  padding-top: 5%; /* Section padding - Top (5%) */
-  padding-bottom: 5%; /* Section padding - Bottom (5%) */
-}
-
-/* Use alternative colors in bg at required to look good */
-
-/* Buttons */
-.button {
-  color: #ffffff; /* Color - Primary color with white text */
-  background-color: #3DB166; /* Primary color */
-  border: 1px solid #3DB166; /* Border color */
-  border-radius: 6px; /* Border radius */
-  padding: 10px 20px; /* Button padding */
-}
-
-.button:hover {
-  background-color: #192F59; /* Secondary color on hover */
-  color: #3DB166; /* Primary color text on hover */
-}
-
-/* Box (icon or image with text) */
-.box {
-  padding: 10px; /* Padding */
-}
-
 .social-icon {
-  font-size: 24px; /* Adjust size as needed */
-  margin-left: 10px; /* Spacing between icons */
-  color: #3DB166; /* Primary color for icons */
+  font-size: 24px;
+  margin-left: 10px;
+  color: #3DB166;
 }
 
 .social-icon:hover {
-  color: #192F59; /* Secondary color on hover */
+  color: #192F59;
 }
 
 /* Quick Call and Get Started Styles */
@@ -200,8 +151,8 @@ body {
 
 .quick-call .call-icon {
   font-size: 1.5rem;
-  margin-right: 5px;
-  color: #007bff; /* Blue color */
+  margin-right: 10px;
+  color: #3DB166; /* Primary color */
 }
 
 .quick-call .call-details {
@@ -211,7 +162,7 @@ body {
 
 .quick-call .call-details span:first-child {
   font-size: 0.9rem;
-  color: #6c757d; /* Gray color */
+  color: #6c757d;
 }
 
 .quick-call .call-details span:last-child {
@@ -220,13 +171,33 @@ body {
 }
 
 .btn-get-started {
-  background-color: #007bff; /* Blue color */
-  color: #ffffff; /* Text color */
+  background-color: #3DB166; /* Primary color */
+  color: white;
   padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;
 }
 
 .btn-get-started:hover {
-  opacity: 0.8;
+  background-color: #192F59; /* Secondary color */
+  color: #3DB166; /* Primary color */
+}
+
+/* Buttons */
+.button {
+  color: #ffffff;
+  background-color: #3DB166;
+  border: 1px solid #3DB166;
+  border-radius: 6px;
+  padding: 10px 20px;
+}
+
+.button:hover {
+  background-color: #192F59;
+  color: #3DB166;
+}
+
+/* Box (icon or image with text) */
+.box {
+  padding: 10px;
 }

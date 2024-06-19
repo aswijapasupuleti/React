@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css"; // Import the CSS file
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function Navbar() {
   return (
@@ -108,7 +109,7 @@ function Navbar() {
             {/* Quick Call and Get Started Buttons */}
             <div className="d-flex align-items-center">
               <div className="quick-call">
-                <span className="call-icon">&#128222;</span> {/* Use an appropriate call icon */}
+                <span className="call-icon"><i className="fas fa-phone"></i></span> {/* FontAwesome icon */}
                 <div className="call-details">
                   <span>Quick Call</span>
                   <span>(904) 12-366-25</span>
