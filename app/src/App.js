@@ -1,13 +1,15 @@
 import "./App.css";
 import Footer from "./components/Footer";
 import Navbar from './components/Navbar';
-import Home from "./components/HomePage/ServiceDetails";
+import Slideshow from "./components/HomePage/Slideshow";
+import ServiceDetails from "./components/HomePage/ServiceDetails";
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Home/>
+      <Slideshow/>
+      <ServiceDetails/>
 
       
       <Footer/>

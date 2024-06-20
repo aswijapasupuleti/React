@@ -1,10 +1,10 @@
-/* General Styles */
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #F2F2F2;
   color: #24272C;
   margin: 0;
   padding: 0;
+  padding-top: 60px; /* Add padding to the top to avoid content hiding behind the navbar */
 }
 
 .container {
@@ -14,7 +14,14 @@ body {
 
 .navbar-container {
   width: 100%;
-  margin: 0 auto;
+  position: -webkit-sticky;
+  position: sticky;
+  /* Uncomment the following lines for fixed position */
+  /* position: fixed;
+  top: 0;
+  left: 0; */
+  top: 0;
+  z-index: 1000;
   background-color: #ffffff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }

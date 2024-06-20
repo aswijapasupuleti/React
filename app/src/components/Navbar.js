@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.css"; // Import the CSS file
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import logo from "./SDG-Logo.png"; // Adjust the path according to your project structure
 
 function Navbar() {
   return (
@@ -20,10 +21,10 @@ function Navbar() {
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
             <img
-              src="https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?size=626&ext=jpg"
+              src={logo}
               alt="Logo"
-              width="100"
-              height="100"
+              width="80"
+              height="80"
               className="navbar-logo"
             />
             SDG Solutions

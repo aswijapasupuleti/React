@@ -1,6 +1,7 @@
 import React from 'react';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import './Footer.css';
+import logo from "./SDG-Logo.png"
 
 function Footer() {
   return (
@@ -9,7 +10,7 @@ function Footer() {
         <div className="container">
           <div className="footer-contact-info">
             <img
-              src="https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?size=626&ext=jpg"
+              src={logo}
               alt="Logo"
               className="footer-logo"
             />
