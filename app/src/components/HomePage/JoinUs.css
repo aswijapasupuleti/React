@@ -2,12 +2,13 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #F2F2F2;
     color: #24272C;
-    margin: 0;
+    margin: -20px 0 -40px; /* Adjusted negative margins for top and bottom */
 }
 
 .join-us-container {
-    width: 100%; /* Adjusted to 100% */
-    padding: 3% 0;
+    width: 100%;
+    padding: 1% 0 0; /* Adjusted padding to reduce top and bottom space */
+    margin: 0 auto;
 }
 
 .breadcrumbs {
@@ -25,7 +26,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
     margin: 0 auto;
-    max-width: 100%; /* Adjusted to 100% */
+    max-width: 100%;
 }
 
 .content {
