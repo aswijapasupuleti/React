@@ -4,6 +4,9 @@ import Navbar from './components/Navbar';
 import Slideshow from "./components/HomePage/Slideshow";
  import JoinUs from "./components/HomePage/JoinUs";
 import ServiceDetails from "./components/HomePage/ServiceDetails";
+import Review from "./components/HomePage/Review";
+import Help from "./components/HomePage/Help";
+
 
 function App() {
   return (
@@ -12,6 +15,8 @@ function App() {
       <Slideshow/>
       <JoinUs/>
       <ServiceDetails/>
+      <Help/>
+      <Review/>
 
       <Footer/>
     </div>

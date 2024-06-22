@@ -27,7 +27,7 @@ function Navbar() {
               height="80"
               className="navbar-logo"
             />
-            SDG Solutions
+            <span className="navbar-brand-text">SDG Solutions</span>
           </a>
           <button
             className="navbar-toggler"

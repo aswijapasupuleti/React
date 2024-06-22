@@ -16,10 +16,6 @@ body {
   width: 100%;
   position: -webkit-sticky;
   position: sticky;
-  /* Uncomment the following lines for fixed position */
-  /* position: fixed;
-  top: 0;
-  left: 0; */
   top: 0;
   z-index: 1000;
   background-color: #ffffff;
@@ -58,6 +54,12 @@ body {
 
 .navbar-brand img {
   margin-right: 10px;
+}
+
+/* Add styles for navbar brand text */
+.navbar-brand-text {
+  font-weight: bold;
+  color: #000000;
 }
 
 .nav-link {

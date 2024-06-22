@@ -1,8 +1,9 @@
 import React from 'react';
 import './JoinUs.css';
-import sampleImage from './images/image6.jpg'; // Assuming the image is in the same directory
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
+import sampleImage from './images/image6.jpg'; // Assuming the image is in the same directory
+
 
 const JoinUs = () => {
     return (

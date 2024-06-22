@@ -50,6 +50,17 @@ const Services = () => (
         icon={<i className="fas fa-bullhorn"></i>}
       />
     </div>
+    <div className="sliding-banner">
+      <div className="sliding-banner-content">
+        <div className="banner-item">GET A QUOTE</div>
+        <div className="banner-item">WEBSITE DEVELOPMENT</div>
+        <div className="banner-item">IT MANAGEMENT</div>
+        <div className="banner-item">IT STRATEGY & CONSULTING</div>
+        <div className="banner-item">CLOUD SERVICES</div>
+        <div className="banner-item">24/7 CUSTOMER SERVICE</div>
+        <div className="banner-item">HAPPY CUSTOMER</div>
+      </div>
+    </div>
   </div>
 );
 
